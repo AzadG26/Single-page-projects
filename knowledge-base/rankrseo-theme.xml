@@ -1303,7 +1303,7 @@ body#layout #footer-copyright > h4:after{content:" - Copyright & legal links"}
       </b:widget>
       <b:widget id='LinkList3' locked='true' title='Lazy Scrolls / More Text' type='LinkList' version='2' visible='true'>
         <b:widget-settings>
-          <b:widget-setting name='link-5'>https://rankrseo.mystrikingly.com/</b:widget-setting>
+          <b:widget-setting name='link-5'>https://rankrseo.blogspot.com/</b:widget-setting>
           <b:widget-setting name='link-3'>8</b:widget-setting>
           <b:widget-setting name='link-4'>{getContent} $label={recent}</b:widget-setting>
           <b:widget-setting name='text-1'>fixedMenu</b:widget-setting>
@@ -1357,20 +1357,20 @@ body#layout #footer-copyright > h4:after{content:" - Copyright & legal links"}
         <li>
           <a href='#services' onclick='toggleMobileDropdown(this)'>Services <i class='fas fa-chevron-down'/></a>
           <ul class='dropdown-menu-mobile'>
-            <li><a href='/search/label/SEO%20Audit'>SEO Audit</a></li>
-            <li><a href='/search/label/Technical%20SEO'>Technical SEO</a></li>
-            <li><a href='/search/label/Keyword%20Research'>Keyword Research</a></li>
-            <li><a href='/search/label/Content%20Marketing'>Content Marketing</a></li>
-            <li><a href='/search/label/Link%20Building'>Link Building</a></li>
-            <li><a href='/search/label/Local%20SEO'>Local SEO</a></li>
-            <li><a href='/search/label/AI%20SEO'>AI SEO</a></li>
-            <li><a href='/search/label/Ecommerce%20SEO'>Ecommerce SEO</a></li>
+            <li><a href='https://rankrseo.blogspot.com/p/seo-audit-services.html'>SEO Audit</a></li>
+            <li><a href='https://rankrseo.blogspot.com/p/technical-seo-services.html'>Technical SEO</a></li>
+            <li><a href='https://rankrseo.blogspot.com/p/seo-audit-services.html'>Keyword Research</a></li>
+            <li><a href='https://rankrseo.blogspot.com/p/content-marketing.html'>Content Marketing</a></li>
+            <li><a href='https://rankrseo.blogspot.com/p/link-building.html'>Link Building</a></li>
+            <li><a href='https://rankrseo.blogspot.com/p/local-seo-services.html'>Local SEO</a></li>
+            <li><a href='https://rankrseo.blogspot.com/p/ai-seo-services.html'>AI SEO</a></li>
+            <li><a href='https://rankrseo.blogspot.com/p/ecommerce-seo.html'>Ecommerce SEO</a></li>
           </ul>
         </li>
         <li><a expr:href='data:blog.homepageUrl'>Blog</a></li>
         <li><a href='/search/label/Case%20Studies'>Case Studies</a></li>
         <li><a href='/p/about.html'>About</a></li>
-        <li><a href='/p/contact.html'>Contact</a></li>
+        <li><a href='https://rankrseo.blogspot.com/p/contact-us.html'>Contact</a></li>
       </ul>
     </nav>
   </aside>
@@ -1391,20 +1391,20 @@ body#layout #footer-copyright > h4:after{content:" - Copyright & legal links"}
               Services <i class='fas fa-chevron-down'/>
             </button>
             <ul class='dropdown-menu' id='servicesDropdown' role='menu'>
-              <li><a href='/search/label/SEO%20Audit' role='menuitem'>SEO Audit</a></li>
-              <li><a href='/search/label/Technical%20SEO' role='menuitem'>Technical SEO</a></li>
-              <li><a href='/search/label/Keyword%20Research' role='menuitem'>Keyword Research</a></li>
-              <li><a href='/search/label/Content%20Marketing' role='menuitem'>Content Marketing</a></li>
-              <li><a href='/search/label/Link%20Building' role='menuitem'>Link Building</a></li>
-              <li><a href='/search/label/Local%20SEO' role='menuitem'>Local SEO</a></li>
-              <li><a href='/search/label/AI%20SEO' role='menuitem'>AI SEO</a></li>
-              <li><a href='/search/label/Ecommerce%20SEO' role='menuitem'>Ecommerce SEO</a></li>
+              <li><a href='https://rankrseo.blogspot.com/p/seo-audit-services.html' role='menuitem'>SEO Audit</a></li>
+              <li><a href='https://rankrseo.blogspot.com/p/technical-seo-services.html' role='menuitem'>Technical SEO</a></li>
+              <li><a href='https://rankrseo.blogspot.com/p/seo-audit-services.html' role='menuitem'>Keyword Research</a></li>
+              <li><a href='https://rankrseo.blogspot.com/p/content-marketing.html' role='menuitem'>Content Marketing</a></li>
+              <li><a href='https://rankrseo.blogspot.com/p/link-building.html' role='menuitem'>Link Building</a></li>
+              <li><a href='https://rankrseo.blogspot.com/p/local-seo-services.html' role='menuitem'>Local SEO</a></li>
+              <li><a href='https://rankrseo.blogspot.com/p/ai-seo-services.html' role='menuitem'>AI SEO</a></li>
+              <li><a href='https://rankrseo.blogspot.com/p/ecommerce-seo.html' role='menuitem'>Ecommerce SEO</a></li>
             </ul>
           </li>
           <li><a aria-label='Blog' expr:href='data:blog.homepageUrl'>Blog</a></li>
           <li><a aria-label='Case Studies' href='/search/label/Case%20Studies'>Case Studies</a></li>
           <li><a aria-label='About' href='/p/about.html'>About</a></li>
-          <li><a aria-label='Contact' href='/p/contact.html'>Contact</a></li>
+          <li><a aria-label='Contact' href='https://rankrseo.blogspot.com/p/contact-us.html'>Contact</a></li>
         </ul>
       </nav>
 
@@ -1665,37 +1665,37 @@ body#layout #footer-copyright > h4:after{content:" - Copyright & legal links"}
             <div class='service-icon'><i class='fas fa-search'/></div>
             <h3>SEO Audit &amp; Technical Analysis</h3>
             <p>In-depth technical SEO audit covering crawl optimization, Core Web Vitals, site architecture, and on-page SEO gaps. We identify every opportunity to improve your search visibility and fix issues fast.</p>
-            <a class='service-link' href='/search/label/SEO%20Audit'>Learn More <i class='fas fa-arrow-right'/></a>
+            <a class='service-link' href='https://rankrseo.blogspot.com/p/seo-audit-services.html'>Learn More <i class='fas fa-arrow-right'/></a>
           </div>
           <div class='service-card animate-on-scroll'>
             <div class='service-icon'><i class='fas fa-key'/></div>
             <h3>Keyword Research &amp; SEO Strategy</h3>
             <p>Data-driven keyword research targeting high-intent, low-competition search terms. We build SEO strategies aligned with buyer intent, voice search, and AI-powered search engines.</p>
-            <a class='service-link' href='/search/label/Keyword%20Research'>Learn More <i class='fas fa-arrow-right'/></a>
+            <a class='service-link' href='https://rankrseo.blogspot.com/p/seo-audit-services.html'>Learn More <i class='fas fa-arrow-right'/></a>
           </div>
           <div class='service-card animate-on-scroll'>
             <div class='service-icon'><i class='fas fa-pen-fancy'/></div>
             <h3>SEO Content Marketing &amp; Blog Writing</h3>
             <p>Authority-building SEO content that earns backlinks, engages readers, and converts visitors. Our content marketing strategies target featured snippets, People Also Ask, and AI search answers.</p>
-            <a class='service-link' href='/search/label/Content%20Marketing'>Learn More <i class='fas fa-arrow-right'/></a>
+            <a class='service-link' href='https://rankrseo.blogspot.com/p/content-marketing.html'>Learn More <i class='fas fa-arrow-right'/></a>
           </div>
           <div class='service-card animate-on-scroll'>
             <div class='service-icon'><i class='fas fa-link'/></div>
             <h3>White-Hat Link Building</h3>
             <p>Ethical, white-hat link building from authoritative domains to boost domain authority, referral traffic, and organic search rankings. We focus on editorial links, guest posts, and digital PR.</p>
-            <a class='service-link' href='/search/label/Link%20Building'>Learn More <i class='fas fa-arrow-right'/></a>
+            <a class='service-link' href='https://rankrseo.blogspot.com/p/link-building.html'>Learn More <i class='fas fa-arrow-right'/></a>
           </div>
           <div class='service-card animate-on-scroll'>
             <div class='service-icon'><i class='fas fa-map-marker-alt'/></div>
             <h3>Local SEO Services</h3>
             <p>Google Business Profile optimization, local citation building, local keyword targeting, and review management to dominate local search results in your city or service area.</p>
-            <a class='service-link' href='/search/label/Local%20SEO'>Learn More <i class='fas fa-arrow-right'/></a>
+            <a class='service-link' href='https://rankrseo.blogspot.com/p/local-seo-services.html'>Learn More <i class='fas fa-arrow-right'/></a>
           </div>
           <div class='service-card animate-on-scroll'>
             <div class='service-icon'><i class='fas fa-chart-bar'/></div>
             <h3>SEO Analytics &amp; ROI Reporting</h3>
             <p>Transparent monthly dashboards and reports showing organic traffic growth, keyword rankings, conversion tracking, and measurable ROI from your SEO campaigns.</p>
-            <a class='service-link' href='/search/label/SEO'>Learn More <i class='fas fa-arrow-right'/></a>
+            <a class='service-link' href='https://rankrseo.blogspot.com/p/seo-agency.html'>Learn More <i class='fas fa-arrow-right'/></a>
           </div>
         </div>
       </div>
@@ -2192,7 +2192,7 @@ body#layout #footer-copyright > h4:after{content:" - Copyright & legal links"}
                         <h3>Need Expert SEO Help?</h3>
                         <p>Get a free, no-obligation SEO audit from RankrSEO. Discover exactly what&#39;s holding your site back from ranking #1 on Google and getting more organic traffic.</p>
                         <div class='post-cta-buttons'>
-                          <a class='btn btn-primary btn-lg' href='/p/free-seo-audit'><i class='fas fa-search'/> Get Your Free SEO Audit</a>
+                          <a class='btn btn-primary btn-lg' href='https://rankrseo.blogspot.com/p/free-seo-audit.html'><i class='fas fa-search'/> Get Your Free SEO Audit</a>
                         </div>
                       </div>
                     </div>
@@ -3150,7 +3150,7 @@ body#layout #footer-copyright > h4:after{content:" - Copyright & legal links"}
         <b:section id='footer-3' maxwidgets='1' name='Footer Column 3' showaddelement='no'>
           <b:widget id='HTML13' locked='true' title='Services' type='HTML' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<h4 class="footer-heading">Services</h4><ul class="footer-links"><li><a href="/search/label/SEO%20Audit">SEO Audit</a></li><li><a href="/search/label/Keyword%20Research">Keyword Research</a></li><li><a href="/search/label/Content%20Marketing">Content Marketing</a></li><li><a href="/search/label/Link%20Building">Link Building</a></li><li><a href="/search/label/Local%20SEO">Local SEO</a></li><li><a href="/search/label/Digital%20Marketing">Digital Marketing</a></li><li><a href="/search/label/Technical%20SEO">Technical SEO</a></li><li><a href="/search/label/AI%20SEO">AI SEO Optimization</a></li><li><a href="/search/label/Ecommerce%20SEO">Ecommerce SEO</a></li></ul>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<h4 class="footer-heading">Services</h4><ul class="footer-links"><li><a href="https://rankrseo.blogspot.com/p/seo-audit-services.html">SEO Audit</a></li><li><a href="https://rankrseo.blogspot.com/p/seo-audit-services.html">Keyword Research</a></li><li><a href="https://rankrseo.blogspot.com/p/content-marketing.html">Content Marketing</a></li><li><a href="https://rankrseo.blogspot.com/p/link-building.html">Link Building</a></li><li><a href="https://rankrseo.blogspot.com/p/local-seo-services.html">Local SEO</a></li><li><a href="https://rankrseo.blogspot.com/p/digital-marketing.html">Digital Marketing</a></li><li><a href="https://rankrseo.blogspot.com/p/technical-seo-services.html">Technical SEO</a></li><li><a href="https://rankrseo.blogspot.com/p/ai-seo-services.html">AI SEO Optimization</a></li><li><a href="https://rankrseo.blogspot.com/p/ecommerce-seo.html">Ecommerce SEO</a></li></ul>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <data:content/>
@@ -3171,7 +3171,7 @@ body#layout #footer-copyright > h4:after{content:" - Copyright & legal links"}
         <b:section id='footer-5' maxwidgets='1' name='Footer Column 5' showaddelement='no'>
           <b:widget id='HTML14' locked='true' title='Resources' type='HTML' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<h4 class="footer-heading">Resources</h4><ul class="footer-links"><li><a href="/p/privacy-policy.html">Privacy Policy</a></li><li><a href="/sitemap.xml">Sitemap</a></li><li><a href="/p/disclaimer.html">Disclaimer</a></li><li><a href="/p/terms.html">Terms of Service</a></li></ul>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<h4 class="footer-heading">Resources</h4><ul class="footer-links"><li><a href="/p/privacy-policy.html">Privacy Policy</a></li><li><a href="https://rankrseo.blogspot.com/p/sitemap.html">Sitemap</a></li><li><a href="/p/disclaimer.html">Disclaimer</a></li><li><a href="/p/terms.html">Terms of Service</a></li></ul>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <data:content/>
