@@ -3,7 +3,7 @@
 <html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='2.0.0' expr:class='data:blog.pageType + &quot; js-enabled&quot;' expr:dir='data:blog.languageDirection' expr:lang='data:blog.localeUnderscoreDelimited' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
 <meta charset='UTF-8'/>
-<meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5' name='viewport'/>
+<meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport'/>
 <meta content='blogger' name='generator'/>
 <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
 <link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon'/>
@@ -3127,8 +3127,8 @@ body#layout #footer-copyright > h4:after{content:" - Copyright & legal links"}
   <footer class='footer' role='contentinfo'>
     <div class='container'>
       <div class='footer-grid'>
-        <b:section id='footer-1' maxwidgets='1' name='Footer Column 1' showaddelement='no'>
-          <b:widget id='HTML9' locked='true' title='About RankrSEO' type='HTML' version='2' visible='true'>
+        <b:section id='footer-1' maxwidgets='1' name='Footer Column 1' showaddelement='yes'>
+          <b:widget id='HTML9' locked='false' title='About RankrSEO' type='HTML' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<a class="footer-logo" href="/"><i class="fas fa-chart-line logo-icon"></i> <span class="logo-text">Rankr<span>SEO</span></span></a><p>RankrSEO is a results-driven SEO agency and digital marketing company founded by Amit Kumar. We help businesses in USA, UK, and India increase organic visibility, generate qualified leads, and grow revenue through ethical search engine optimization, technical SEO, local SEO, ecommerce SEO, AI search optimization, content marketing, and conversion-focused websites.</p><div class="footer-social"><a aria-label="Facebook" href="https://www.facebook.com/RankrSEOs/" rel="noopener noreferrer" target="_blank"><i class="fab fa-facebook-f"></i></a><a aria-label="LinkedIn" href="https://in.linkedin.com/in/rankrseo" rel="noopener noreferrer" target="_blank"><i class="fab fa-linkedin-in"></i></a><a aria-label="Instagram" href="https://www.instagram.com/rankrseo/" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"></i></a><a aria-label="YouTube" href="https://www.youtube.com/@rankrseo" rel="noopener noreferrer" target="_blank"><i class="fab fa-youtube"></i></a><a aria-label="Linktree" href="https://linktr.ee/rankrseo" rel="noopener noreferrer" target="_blank"><i class="fas fa-tree"></i></a></div>]]></b:widget-setting>
             </b:widget-settings>
@@ -3137,28 +3137,77 @@ body#layout #footer-copyright > h4:after{content:" - Copyright & legal links"}
             </b:includable>
           </b:widget>
         </b:section>
-        <b:section id='footer-2' maxwidgets='1' name='Footer Column 2' showaddelement='no'>
-          <b:widget id='HTML12' locked='true' title='Quick Links' type='HTML' version='2' visible='true'>
+        <b:section id='footer-2' maxwidgets='1' name='Footer Column 2' showaddelement='yes'>
+          <b:widget id='LinkList5' locked='false' title='Quick Links' type='LinkList' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<h4 class="footer-heading">Quick Links</h4><ul class="footer-links"><li><a href="/">Home</a></li><li><a href="/">Blog</a></li><li><a href="/p/services.html">Services</a></li><li><a href="/search/label/Case%20Studies">Case Studies</a></li><li><a href="/p/about.html">About Us</a></li></ul>]]></b:widget-setting>
+              <b:widget-setting name='link-4'>/p/about.html</b:widget-setting>
+              <b:widget-setting name='text-1'>Blog</b:widget-setting>
+              <b:widget-setting name='text-0'>Home</b:widget-setting>
+              <b:widget-setting name='text-3'>Case Studies</b:widget-setting>
+              <b:widget-setting name='text-2'>Services</b:widget-setting>
+              <b:widget-setting name='text-4'>About Us</b:widget-setting>
+              <b:widget-setting name='sorting'>NONE</b:widget-setting>
+              <b:widget-setting name='link-1'>/</b:widget-setting>
+              <b:widget-setting name='link-2'>/p/services.html</b:widget-setting>
+              <b:widget-setting name='link-3'>/search/label/Case%20Studies</b:widget-setting>
+              <b:widget-setting name='link-0'>/</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
-              <data:content/>
+              <h4 class='footer-heading'><data:title/></h4>
+              <ul class='footer-links'>
+                <b:loop values='data:links' var='link'>
+                  <li><a expr:href='data:link.target'><data:link.name/></a></li>
+                </b:loop>
+              </ul>
             </b:includable>
+            <b:includable id='content'>
+        <div class='widget-content widget-control'>
+            <ul><b:loop values='data:links' var='link'><li><a expr:href='data:link.target'><data:link.name/></a></li></b:loop></ul>
+        </div>
+    </b:includable>
           </b:widget>
         </b:section>
-        <b:section id='footer-3' maxwidgets='1' name='Footer Column 3' showaddelement='no'>
-          <b:widget id='HTML13' locked='true' title='Services' type='HTML' version='2' visible='true'>
+        <b:section id='footer-3' maxwidgets='1' name='Footer Column 3' showaddelement='yes'>
+          <b:widget id='LinkList6' locked='false' title='Services' type='LinkList' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<h4 class="footer-heading">Services</h4><ul class="footer-links"><li><a href="/search/label/SEO%20Audit">SEO Audit</a></li><li><a href="/search/label/Keyword%20Research">Keyword Research</a></li><li><a href="/search/label/Content%20Marketing">Content Marketing</a></li><li><a href="/search/label/Link%20Building">Link Building</a></li><li><a href="/search/label/Local%20SEO">Local SEO</a></li><li><a href="/search/label/Digital%20Marketing">Digital Marketing</a></li><li><a href="/search/label/Technical%20SEO">Technical SEO</a></li><li><a href="/search/label/AI%20SEO">AI SEO Optimization</a></li><li><a href="/search/label/Ecommerce%20SEO">Ecommerce SEO</a></li></ul>]]></b:widget-setting>
+              <b:widget-setting name='text-8'>Ecommerce SEO</b:widget-setting>
+              <b:widget-setting name='link-7'>/search/label/AI%20SEO</b:widget-setting>
+              <b:widget-setting name='link-8'>/search/label/Ecommerce%20SEO</b:widget-setting>
+              <b:widget-setting name='text-5'>Digital Marketing</b:widget-setting>
+              <b:widget-setting name='link-5'>/search/label/Digital%20Marketing</b:widget-setting>
+              <b:widget-setting name='link-6'>/search/label/Technical%20SEO</b:widget-setting>
+              <b:widget-setting name='link-3'>/search/label/Link%20Building</b:widget-setting>
+              <b:widget-setting name='link-4'>/search/label/Local%20SEO</b:widget-setting>
+              <b:widget-setting name='text-1'>Keyword Research</b:widget-setting>
+              <b:widget-setting name='text-0'>SEO Audit</b:widget-setting>
+              <b:widget-setting name='text-3'>Link Building</b:widget-setting>
+              <b:widget-setting name='text-2'>Content Marketing</b:widget-setting>
+              <b:widget-setting name='text-5'>Content Marketing</b:widget-setting>
+              <b:widget-setting name='text-4'>Local SEO</b:widget-setting>
+              <b:widget-setting name='text-7'>AI SEO Optimization</b:widget-setting>
+              <b:widget-setting name='text-6'>Technical SEO</b:widget-setting>
+              <b:widget-setting name='sorting'>NONE</b:widget-setting>
+              <b:widget-setting name='link-1'>/search/label/Keyword%20Research</b:widget-setting>
+              <b:widget-setting name='link-2'>/search/label/Content%20Marketing</b:widget-setting>
+              <b:widget-setting name='link-0'>/search/label/SEO%20Audit</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
-              <data:content/>
+              <h4 class='footer-heading'><data:title/></h4>
+              <ul class='footer-links'>
+                <b:loop values='data:links' var='link'>
+                  <li><a expr:href='data:link.target'><data:link.name/></a></li>
+                </b:loop>
+              </ul>
             </b:includable>
+            <b:includable id='content'>
+        <div class='widget-content widget-control'>
+            <ul><b:loop values='data:links' var='link'><li><a expr:href='data:link.target'><data:link.name/></a></li></b:loop></ul>
+        </div>
+    </b:includable>
           </b:widget>
         </b:section>
-        <b:section id='footer-4' maxwidgets='1' name='Footer Column 4' showaddelement='no'>
-          <b:widget id='HTML10' locked='true' title='Contact Info' type='HTML' version='2' visible='true'>
+        <b:section id='footer-4' maxwidgets='1' name='Footer Column 4' showaddelement='yes'>
+          <b:widget id='HTML10' locked='false' title='Contact Info' type='HTML' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<ul class="footer-links contact-info"><li><i class="fas fa-map-marker-alt"></i> New Delhi, Delhi, India</li><li><i class="fas fa-phone"></i> +91 99537 32860</li><li><i class="fas fa-envelope"></i> rankrseo@gmail.com</li><li><i class="fas fa-clock"></i> Mon-Fri: 9AM - 6PM IST</li></ul>]]></b:widget-setting>
             </b:widget-settings>
@@ -3168,14 +3217,33 @@ body#layout #footer-copyright > h4:after{content:" - Copyright & legal links"}
             </b:includable>
           </b:widget>
         </b:section>
-        <b:section id='footer-5' maxwidgets='1' name='Footer Column 5' showaddelement='no'>
-          <b:widget id='HTML14' locked='true' title='Resources' type='HTML' version='2' visible='true'>
+        <b:section id='footer-5' maxwidgets='1' name='Footer Column 5' showaddelement='yes'>
+          <b:widget id='LinkList7' locked='false' title='Resources' type='LinkList' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<h4 class="footer-heading">Resources</h4><ul class="footer-links"><li><a href="/p/privacy-policy.html">Privacy Policy</a></li><li><a href="/sitemap.xml">Sitemap</a></li><li><a href="/p/disclaimer.html">Disclaimer</a></li><li><a href="/p/terms.html">Terms of Service</a></li></ul>]]></b:widget-setting>
+              <b:widget-setting name='link-3'>/p/terms.html</b:widget-setting>
+              <b:widget-setting name='link-4'>/p/disclaimer.html</b:widget-setting>
+              <b:widget-setting name='text-1'>Sitemap</b:widget-setting>
+              <b:widget-setting name='text-0'>Privacy Policy</b:widget-setting>
+              <b:widget-setting name='text-3'>Terms of Service</b:widget-setting>
+              <b:widget-setting name='text-2'>Disclaimer</b:widget-setting>
+              <b:widget-setting name='sorting'>NONE</b:widget-setting>
+              <b:widget-setting name='link-1'>/sitemap.xml</b:widget-setting>
+              <b:widget-setting name='link-2'>/p/disclaimer.html</b:widget-setting>
+              <b:widget-setting name='link-0'>/p/privacy-policy.html</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
-              <data:content/>
+              <h4 class='footer-heading'><data:title/></h4>
+              <ul class='footer-links'>
+                <b:loop values='data:links' var='link'>
+                  <li><a expr:href='data:link.target'><data:link.name/></a></li>
+                </b:loop>
+              </ul>
             </b:includable>
+            <b:includable id='content'>
+        <div class='widget-content widget-control'>
+            <ul><b:loop values='data:links' var='link'><li><a expr:href='data:link.target'><data:link.name/></a></li></b:loop></ul>
+        </div>
+    </b:includable>
           </b:widget>
         </b:section>
       </div>
